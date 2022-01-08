@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:onClick="viewstock"
+        android:backgroundTint="#009688"
+        android:text="View\nStock" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:onClick="addstock"
+        android:textSize="25dp"
+        android:backgroundTint="#009688"
+        android:padding="25dp"
+        android:text="Add\nStock" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:onClick="backup"
+        android:textSize="25dp"
+        android:backgroundTint="#009688"
+        android:padding="25dp"
+        android:text="Share\nBackup" />
+</LinearLayout>
